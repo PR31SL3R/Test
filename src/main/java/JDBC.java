@@ -20,9 +20,9 @@ public class JDBC {
              SQL Query
              */
 
-            ResultSet query3 = sqlConnection.executeQuery("select * from emp");
+            ResultSet query1 = sqlConnection.executeQuery("select * from emp");
 
-            ResultSetMetaData meta = query3.getMetaData();
+            ResultSetMetaData meta = query1.getMetaData();
             int getColumnCount = meta.getColumnCount();
             String queryResult = "";
 
@@ -30,9 +30,9 @@ public class JDBC {
                 queryResult += meta.getColumnName(i) + " ";
             }
             queryResult += "\n";
-            while (query3.next()) {
+            while (query1.next()) {
                 for (int i = 1; i < getColumnCount; i++) {
-                    queryResult += query3.getString(i) + " ";
+                    queryResult += query1.getString(i) + " ";
 
                 }
                 queryResult += "\n";

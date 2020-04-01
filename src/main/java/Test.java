@@ -8,6 +8,10 @@ import java.util.Properties;
 public class Test {
     String result = "";
     InputStream inputStream;
+    String URL;
+    String USER;
+    String PASSWORD;
+
 
     public String getPropValues() throws IOException {
 
@@ -25,13 +29,16 @@ public class Test {
 
 
             // get the property value and print it out
-            String URL = prop.getProperty("URL");
-            String USER = prop.getProperty("USER");
-            String PASSWORD = prop.getProperty("PASSWORD");
+             URL = prop.getProperty("URL");
+             USER = prop.getProperty("USER");
+             PASSWORD = prop.getProperty("PASSWORD");
 
 
             result = "URL = " + URL + ", " + USER + ", " + PASSWORD;
             System.out.println(result);
+
+
+
         } catch (Exception e) {
             System.out.println("Exception: " + e);
         } finally {

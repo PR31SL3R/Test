@@ -1,4 +1,5 @@
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,20 +12,26 @@ public class DBManager {
     private final String USER;
     private final String PASSWORD;
 
-    String result = "";
     InputStream inputStream;
 
-
     public DBManager(){
+        Properties prop = new Properties();
+        String propFileName = "config.properties";
+        inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
+        try {
+            prop.load(inputStream);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
 
 
         /*
         Connection Manager
          */
-        this.URL = "jdbc:mysql://localhost:3306/emp_db?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
-        this.USER = "root";
-        this.PASSWORD = "12345678";
+        this.URL = prop.getProperty("URL");
+        this.USER = prop.getProperty("ROOt");
+        this.PASSWORD = prop.getProperty("PASSWORD");
 
     }
 

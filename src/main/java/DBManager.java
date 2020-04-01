@@ -1,4 +1,3 @@
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
@@ -15,6 +14,10 @@ public class DBManager {
     InputStream inputStream;
 
     public DBManager(){
+
+        /*
+        Connect to config.properties
+         */
         Properties prop = new Properties();
         String propFileName = "config.properties";
         inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
@@ -30,7 +33,7 @@ public class DBManager {
         Connection Manager
          */
         this.URL = prop.getProperty("URL");
-        this.USER = prop.getProperty("ROOt");
+        this.USER = prop.getProperty("USER");
         this.PASSWORD = prop.getProperty("PASSWORD");
 
     }

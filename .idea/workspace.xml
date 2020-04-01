@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bdc94f3-2811-4c8b-a214-08e8fb78e67b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DBManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DBManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +88,7 @@
       <workItem from="1585652811804" duration="6154000" />
       <workItem from="1585686467552" duration="32000" />
       <workItem from="1585733032721" duration="11003000" />
+      <workItem from="1585752631679" duration="2518000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 1 - Done&#10;Assignment 2 - Done&#10;Assignment 3 - Done&#10;Assignment 4 - Missing&#10;Assignment 5 - Missing">
       <created>1585734906276</created>
@@ -126,22 +131,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="303" y="33" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585742630233" />
-    <state width="966" height="245" key="GridCell.Tab.0.bottom" timestamp="1585750897964">
+    <state width="1440" height="245" key="GridCell.Tab.0.bottom" timestamp="1585755770006">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="966" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585750897964" />
-    <state width="966" height="245" key="GridCell.Tab.0.center" timestamp="1585750897963">
+    <state width="1440" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585755770006" />
+    <state width="1440" height="245" key="GridCell.Tab.0.center" timestamp="1585755770004">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="966" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585750897963" />
-    <state width="966" height="245" key="GridCell.Tab.0.left" timestamp="1585750897961">
+    <state width="1440" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585755770004" />
+    <state width="1440" height="245" key="GridCell.Tab.0.left" timestamp="1585755770003">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="966" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585750897961" />
-    <state width="966" height="245" key="GridCell.Tab.0.right" timestamp="1585750897964">
+    <state width="1440" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585755770003" />
+    <state width="1440" height="245" key="GridCell.Tab.0.right" timestamp="1585755770004">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="966" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585750897964" />
+    <state width="1440" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585755770004" />
     <state x="416" y="63" key="SettingsEditor" timestamp="1585656355275">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -160,7 +165,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/JDBC.java</url>
-          <line>6</line>
+          <line>13</line>
           <properties class="JDBC" method="main">
             <option name="EMULATED" value="true" />
           </properties>
@@ -168,7 +173,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/DBManager.java</url>
-          <line>32</line>
+          <line>35</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

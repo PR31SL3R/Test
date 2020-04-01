@@ -1,13 +1,7 @@
-import com.mysql.cj.protocol.Resultset;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.sql.*;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Properties;
 
 import java.sql.*;
+import java.util.HashMap;
+
 
 public class JDBC {
 
@@ -28,7 +22,7 @@ public class JDBC {
              SQL Query 1
              */
             ResultSet query1 = sqlConnection.executeQuery("select * from dept");
-            while (query1.next()){
+            while (query1.next()) {
                 System.out.println(query1.getString("deptno"));
             }
             /*
@@ -61,13 +55,13 @@ public class JDBC {
 
              */
 
-        Employee emp = new Employee();
+            Employee emp = new Employee();
 
-        HashMap<String, Object> map = new HashMap<String, Object>();
-        map = emp.getAllEmployees(sqlConnectManager.createStatement());
-        for (Object key : map.values()) {
-            System.out.println(key);
-        }
+            HashMap<String, Object> map = new HashMap<String, Object>();
+            map = emp.getAllEmployees(sqlConnectManager.createStatement());
+            for (Object key : map.values()) {
+                System.out.println(key);
+            }
 
         } catch (SQLException e) {
             e.printStackTrace();

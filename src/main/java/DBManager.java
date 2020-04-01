@@ -1,3 +1,4 @@
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
@@ -13,7 +14,7 @@ public class DBManager {
 
     InputStream inputStream;
 
-    public DBManager(){
+    public DBManager() {
 
         /*
         Connect to config.properties
@@ -38,8 +39,8 @@ public class DBManager {
 
     }
 
-    public Connection getDBConnection()throws SQLException {
-        return DriverManager.getConnection(URL,USER,PASSWORD);
+    public Connection getDBConnection() throws SQLException {
+        return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 
 }

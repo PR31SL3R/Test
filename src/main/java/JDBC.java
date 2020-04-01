@@ -7,15 +7,34 @@ public class JDBC {
     public static void main(String[] args) {
         //connect
         try {
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/rfb_db?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC","root","12345678");
+
+            /*
+            Create Connection
+             */
 
             DBManager manager = new DBManager();
-            Connection sqlConnect = manager.getDBConnection();
-            Statement sql = sqlConnect.createStatement();
-            ResultSet test1 = sql.executeQuery("use rfb_db;");
-            ResultSet test2 = sql.executeQuery("select navn from børn");
+            Connection sqlConnectManager = manager.getDBConnection();
+            Statement sqlConnection = sqlConnectManager.createStatement();
 
-            DatabaseMetaData rfbdb = con.getMetaData();
+            /*
+             Create Connection
+             */
+
+            ResultSet query3 = sqlConnection.executeQuery("select * from dept");
+
+            ResultSetMetaData meta = query3.getMetaData();
+
+            while(query3.next()){
+                System.out.println(query3.getInt("deptno"));
+                System.out.println(meta.getColumnCount());
+            }
+
+
+            ResultSet query1 = sqlConnection.executeQuery("use emp_db;");
+            ResultSet query2 = sqlConnection.executeQuery("select empno from emp");
+
+
+            DatabaseMetaData rfbdb = sqlConnectManager.getMetaData();
             String[] types = {"TABLE"};
             ResultSet rst = rfbdb.getTables(null, null, "%", types);
             while (rst.next()) {
@@ -23,9 +42,6 @@ public class JDBC {
 
             }
 
-            while (test2.next()){
-                System.out.println(test2.getString("navn"));
-            }
 
         } catch (SQLException e) {
             e.printStackTrace();

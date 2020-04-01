@@ -9,7 +9,7 @@ public class DBManager {
     private final String PASSWORD;
 
     public DBManager(){
-        this.URL = "jdbc:mysql://localhost:3306?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
+        this.URL = "jdbc:mysql://localhost:3306/emp_db?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC";
         this.USER = "root";
         this.PASSWORD = "12345678";
 

@@ -19,25 +19,26 @@ public class DBManager {
         /*
         Connect to config.properties
          */
-        Properties prop = new Properties();
-        String propFileName = "config.properties";
-        inputStream = getClass().getClassLoader().getResourceAsStream(propFileName);
+        Properties prop = null;
         try {
-            prop.load(inputStream);
+            prop = new Properties();
+            FileInputStream fis = new FileInputStream("src/main/resources/config.properties");
+            prop.load(fis);
+            fis.close();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-
-
-        /*
-        Connection Manager
-         */
         this.URL = prop.getProperty("URL");
         this.USER = prop.getProperty("USER");
         this.PASSWORD = prop.getProperty("PASSWORD");
 
     }
+
+    /*
+        Connection Manager
+         */
 
     public Connection getDBConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);

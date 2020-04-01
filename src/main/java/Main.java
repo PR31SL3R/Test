@@ -3,7 +3,7 @@ import java.sql.*;
 import java.util.HashMap;
 
 
-public class JDBC {
+public class Main {
 
     public static void main(String[] args) throws SQLException {
         //connect

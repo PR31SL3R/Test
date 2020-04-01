@@ -17,30 +17,27 @@ public class JDBC {
             Statement sqlConnection = sqlConnectManager.createStatement();
 
             /*
-             Create Connection
+             SQL Query
              */
 
-            ResultSet query3 = sqlConnection.executeQuery("select * from dept");
+            ResultSet query3 = sqlConnection.executeQuery("select * from emp");
 
             ResultSetMetaData meta = query3.getMetaData();
+            int getColumnCount = meta.getColumnCount();
+            String queryResult = "";
 
-            while(query3.next()){
-                System.out.println(query3.getInt("deptno"));
-                System.out.println(meta.getColumnCount());
+            for (int i = 1; i < getColumnCount; i++) {
+                queryResult += meta.getColumnName(i) + " ";
             }
+            queryResult += "\n";
+            while (query3.next()) {
+                for (int i = 1; i < getColumnCount; i++) {
+                    queryResult += query3.getString(i) + " ";
 
-
-            ResultSet query1 = sqlConnection.executeQuery("use emp_db;");
-            ResultSet query2 = sqlConnection.executeQuery("select empno from emp");
-
-
-            DatabaseMetaData rfbdb = sqlConnectManager.getMetaData();
-            String[] types = {"TABLE"};
-            ResultSet rst = rfbdb.getTables(null, null, "%", types);
-            while (rst.next()) {
-                System.out.println(rst.getString("TABLE_NAME"));
-
+                }
+                queryResult += "\n";
             }
+            System.out.println(queryResult);
 
 
         } catch (SQLException e) {

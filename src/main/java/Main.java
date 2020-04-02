@@ -55,7 +55,11 @@ public class Main {
 
              */
 
-            Employee emp = new Employee();
+            EmployeeDAO emp = new EmployeeDAO();
+
+            System.out.println(emp.getsingleEmployee(7369));
+
+            /*
 
             HashMap<String, Object> map = new HashMap<String, Object>();
             map = emp.getAllEmployees(sqlConnectManager.createStatement());
@@ -63,12 +67,22 @@ public class Main {
                 System.out.println(key);
             }
 
+            */
+
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
 
-    }
+
+
+
+
+
+
+
+
+        }
 
 
 }

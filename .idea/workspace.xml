@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0bdc94f3-2811-4c8b-a214-08e8fb78e67b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DBManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DBManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DBManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Employee.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +82,7 @@
       <workItem from="1585686467552" duration="32000" />
       <workItem from="1585733032721" duration="11003000" />
       <workItem from="1585752631679" duration="2690000" />
-      <workItem from="1585768514022" duration="1709000" />
+      <workItem from="1585768514022" duration="3973000" />
     </task>
     <task id="LOCAL-00001" summary="Assignment 1 - Done&#10;Assignment 2 - Done&#10;Assignment 3 - Done&#10;Assignment 4 - Missing&#10;Assignment 5 - Missing">
       <created>1585734906276</created>
@@ -122,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585769870633</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Assignment 1 - Done&#10;Assignment 2 - Done&#10;Assignment 3 - Done&#10;Assignment 4 - Done&#10;Assignment 5 - Done">
+      <created>1585770297866</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585770297866</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Assignment 1 - Done&#10;Assignment 2 - Done&#10;Assignment 3 - Done&#10;Assignment 4 - Done&#10;Assignment 5 - Done">
+      <created>1585770481516</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585770481516</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,34 +150,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="199" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1585737882489" />
-    <state x="303" y="33" key="CommitChangelistDialog2" timestamp="1585770297468">
+    <state x="303" y="33" key="CommitChangelistDialog2" timestamp="1585770481045">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="33" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585770297468" />
-    <state width="1440" height="245" key="GridCell.Tab.0.bottom" timestamp="1585770446850">
+    <state x="303" y="33" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1585770481045" />
+    <state width="1440" height="245" key="GridCell.Tab.0.bottom" timestamp="1585809471495">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585770446850" />
-    <state width="1440" height="245" key="GridCell.Tab.0.center" timestamp="1585770446848">
+    <state width="1440" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585809471495" />
+    <state width="1440" height="245" key="GridCell.Tab.0.center" timestamp="1585809471493">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585770446848" />
-    <state width="1440" height="245" key="GridCell.Tab.0.left" timestamp="1585770446848">
+    <state width="1440" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585809471493" />
+    <state width="1440" height="245" key="GridCell.Tab.0.left" timestamp="1585809471493">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585770446848" />
-    <state width="1440" height="245" key="GridCell.Tab.0.right" timestamp="1585770446849">
+    <state width="1440" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585809471493" />
+    <state width="1440" height="245" key="GridCell.Tab.0.right" timestamp="1585809471494">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585770446849" />
+    <state width="1440" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585809471494" />
     <state x="416" y="63" key="SettingsEditor" timestamp="1585656355275">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="416" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1585656355275" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1585770316288">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1585770492986">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585770316288" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1585770492986" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585769337222">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -180,9 +191,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/JDBC.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
           <line>7</line>
-          <properties class="JDBC" method="main">
+          <properties class="Main" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
